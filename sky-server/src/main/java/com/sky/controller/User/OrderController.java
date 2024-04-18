@@ -100,9 +100,15 @@ public class OrderController {
     }
 
     /**
-     * 各个状态的订单数量统计
-     *
+     * 客户催单
+     * @param id
      * @return
      */
+    @GetMapping("/reminder/{id}")
+    @ApiOperation("客户催单")
+    public Result reminder(@PathVariable Long id){
+
+        return orderService.reminder(id);
+    }
 
 }

@@ -110,4 +110,5 @@ public interface OrderService {
      */
     void complete(Long id);
 
+    Result reminder(Long id);
 }
