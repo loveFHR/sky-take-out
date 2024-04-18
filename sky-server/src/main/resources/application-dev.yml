@@ -1,11 +1,11 @@
 sky:
   datasource:
-    driver-class-name: 
-    host: 
-    port: 
-    database: 
-    username: 
-    password: 
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    host: localhost
+    port: 3306
+    database: sky_take_out
+    username: root
+    password: 123456
 
   alioss:
     endpoint:
@@ -14,10 +14,10 @@ sky:
     bucket-name:
 
   redis:
-    host: 
-    password: 
-    port: 
-    database: 
+    host: 192.168.233.137
+    password: 123456
+    port: 6379
+    database: 1
   wechat:
-    appid: 
-    secret: 
+    appid: wxb476d137ae9838d3
+    secret: e675ab0875b9c6ea64d1c40f09b6a94c
